@@ -1,13 +1,12 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main() {
+        String str1 = "travessao";
+        String str2 = "aves";
 
-    }
+        BruteForce obj = new BruteForce();
 
-    public int teste() {
-        return 1;
+        System.out.println(obj.lcs(str1, str2));
     }
 }
